@@ -89,7 +89,7 @@ function Form() {
           type="text"
           name="password"
           className="form-control py-2"
-          value={formData.password}
+          value={formData.confirmPassword}
           onChange={handleChange}
           placeholder="Confirm Password"
         />
