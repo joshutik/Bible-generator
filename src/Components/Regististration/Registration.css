@@ -1,0 +1,25 @@
+.reg {
+   background-image:linear-gradient(to right, #000b1a,#010103ad), url(../Asset/medium-shot-woman-reading-book.jpg) !important;
+   background-size: cover;
+   min-height: 100vh !important;
+   background-repeat: no-repeat;
+   width: 100% !important;
+}
+
+.log-links:focus a {
+    text-decoration: underline !important;
+    color: #F38049 !important;
+}
+
+@media screen and (max-width:430px) {
+    .reg {
+        background-image:linear-gradient(to right, #000b1a,#010103ad), url(../Asset/medium-shot-woman-reading-book.jpg) !important;
+        background-size: cover;
+        min-height: 100vh !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100% !important;
+        background-attachment: fixed;
+     }
+}
+
